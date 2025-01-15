@@ -48,11 +48,11 @@
     "signin_others": "Or continue with",
     "signup": "Sign up",
     "privacy": "only your email and profile picture will be stored.",
-    "signup_github": "Sign Up with Github",
+    "signup_google": "Sign Up with Google",
     "": ""
   },
   "common": {
-    "copyright": "Copyright © ${currentYear} Nextify Limited. All rights reserved.",
+    "copyright": "Copyright ${currentYear} Nextify Limited. All rights reserved.",
     "dashboard": {
       "main_nav_documentation": "Documentation",
       "main_nav_support": "Support",

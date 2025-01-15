@@ -45,14 +45,14 @@
     "signin_title": "アカウントにログインするためのメールを入力してください",
     "singup_title": "アカウントがまだないですか？今すぐサインアップ。",
     "signin_email": "メールでログイン",
-    "signin_others": "または続ける",
+    "signin_others": "または次で続行",
     "signup": "サインアップ",
     "privacy": "メールアドレスとプロフィール画像のみが保存されます。",
-    "signup_github": "Githubでサインアップ",
+    "signup_google": "Google でサインアップ",
     "": ""
   },
   "common": {
-    "copyright": "著作権 © ${currentYear} Nextify株式会社。全ての権利を保有。",
+    "copyright": "著作権 ${currentYear} Nextify株式会社。全ての権利を保有。",
     "dashboard": {
       "main_nav_documentation": "ドキュメンテーション",
       "main_nav_support": "サポート",

@@ -46,13 +46,13 @@
     "singup_title": "계정이 없으신가요? 지금 가입하세요.",
     "signin_email": "이메일로 로그인",
     "signin_others": "또는 다음으로 계속",
-    "signup": "가입하기",
+    "signup": "회원가입",
     "privacy": "이메일과 프로필 사진만 저장됩니다.",
-    "signup_github": "Github으로 가입하기",
+    "signup_google": "Google로 회원가입",
     "": ""
   },
   "common": {
-    "copyright": "저작권 © ${currentYear} Nextify 주식회사. 모든 권리 보유.",
+    "copyright": "저작권  ${currentYear} Nextify 주식회사. 모든 권리 보유.",
     "dashboard": {
       "main_nav_documentation": "문서",
       "main_nav_support": "지원",
