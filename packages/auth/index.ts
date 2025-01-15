@@ -6,7 +6,7 @@ import type {
 import { KyselyAdapter } from "@auth/kysely-adapter";
 import { getServerSession, type NextAuthOptions, type User } from "next-auth";
 import EmailProvider from "next-auth/providers/email";
-import GitHubProvider from "next-auth/providers/github";
+import GoogleProvider from "next-auth/providers/google";
 
 import { MagicLinkEmail, resend, siteConfig } from "@saasfly/common";
 
@@ -43,9 +43,9 @@ export const authOptions: NextAuthOptions = {
   adapter: KyselyAdapter(db),
 
   providers: [
-    GitHubProvider({
-      clientId: env.GITHUB_CLIENT_ID,
-      clientSecret: env.GITHUB_CLIENT_SECRET,
+    GoogleProvider({
+      clientId: env.GOOGLE_CLIENT_ID,
+      clientSecret: env.GOOGLE_CLIENT_SECRET,
       httpOptions: { timeout: 15000 },
     }),
     EmailProvider({
